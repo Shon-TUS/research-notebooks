@@ -34,3 +34,24 @@ Next, place the speaker and the 8 piezo microphones behind the chair.
 
 Connect the installed speaker and piezo microphones to the FOCUSRITE Scarlett 18i20.
 
+Finally, connect your computer to the FOCUSRITE Scarlett 18i20.
+
+At this time, please make sure that Focusrite Control is installed on your computer.
+
+**3.Experiment**
+
+3-1.
+
+Please run Make_Chirp.py in the Experiment folder.
+
+When executed, it generates chirp sounds for the duration specified.
+
+Modify num_chirps according to the length of time you want to record.
+
+(For example, if num_chirps = 3000, a WAV file containing 300 seconds of chirp sounds will be created.)
+
+3-2.
+
+Run record.py in the same folder.
+
+When executed, video recording and audio recording will start simultaneously.
