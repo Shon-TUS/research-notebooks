@@ -1,5 +1,6 @@
 # Project name
 Estimating Seated Postures from Acoustic Signals using Python
+
 ## Overview
 We perform skeletal estimation of seated postures using Python.
 
@@ -8,3 +9,15 @@ As inputs, the program requires a WAV file of audio signals, a CSV file containi
 As output, a MOV file with the estimated skeleton is generated.
 
 This program is an adaptation of the paper ***“Listening Human Behavior: 3D Human Pose Estimation with Acoustic Signals”*** to seated postures, and its overall workflow follows that of the original paper.
+
+##Usage
+**1.Equipment Used**
+・Intel RealSense Depth Camera D455
+
+・FOCUSRITE Scarlett 18i20
+
+・8 Piezo Microphones
+
+・Armchair
+
+**2.Experimental Setup**
