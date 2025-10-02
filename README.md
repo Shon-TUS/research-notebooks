@@ -13,12 +13,24 @@ This program is an adaptation of the paper ***“Listening Human Behavior: 3D Hu
 ## Usage
 
 **1.Equipment Used**
+
 ・Intel RealSense Depth Camera D455
 
 ・FOCUSRITE Scarlett 18i20
 
 ・8 Piezo Microphones
 
+・Speaker
+
 ・Armchair
 
-**2.Experimental Setup**
+**2.Setup Procedure**
+
+Place the Intel RealSense Depth Camera D455 facing the armchair.
+
+Adjust the camera so that the entire body is visible.
+
+Next, place the speaker and the 8 piezo microphones behind the chair.
+
+Connect the installed speaker and piezo microphones to the FOCUSRITE Scarlett 18i20.
+
