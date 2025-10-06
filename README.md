@@ -64,7 +64,7 @@ Run skeletal_estimation.py located in the Preprocessing folder.
 
 Before running, please change the MOV file name specified in the code.
 
-When executed, the script will save the skeleton estimation results obtained using OpenPose as a CSV file.
+When executed, the script will save the skeleton estimation results obtained using MediaPipe as a CSV file.
 
 Although the generated MOV file with the estimated skeleton is not used during training, it will also be output.
 
