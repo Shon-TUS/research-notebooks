@@ -40,7 +40,7 @@ At this time, please make sure that Focusrite Control is installed on your compu
 
 **3.Experiment**
 
-3-1.
+3-1.Make chrip sounds
 
 Please run Make_Chirp.py in the Experiment folder.
 
@@ -50,8 +50,21 @@ Modify num_chirps according to the length of time you want to record.
 
 (For example, if num_chirps = 3000, a WAV file containing 300 seconds of chirp sounds will be created.)
 
-3-2.
+3-2.Start Experiment
 
 Run record.py in the same folder.
 
 When executed, video recording and audio recording will start simultaneously.
+
+**4.Preprocessing**
+
+4-1.Data preprocessing
+
+Run skeletal_estimation.py located in the Preprocessing folder.
+
+Before running, please change the MOV file name specified in the code.
+
+When executed, the script will save the skeleton estimation results obtained using OpenPose as a CSV file.
+
+Although the generated MOV file with the estimated skeleton is not used during training, it will also be output.
+
