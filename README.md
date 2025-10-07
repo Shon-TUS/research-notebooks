@@ -68,26 +68,27 @@ When executed, the script will save the skeleton estimation results obtained usi
 
 Although the generated MOV file with the estimated skeleton is not used during training, it will also be output.
 
-| No. | Humanoid名         | 生成方法（対応するMediaPipe点）                 | 説明               |
-| --: | ----------------- | ------------------------------------ | ---------------- |
-|   1 | **Hips**          | (left_hip + right_hip) / 2           | 左右の腰の中点。体の中心の腰位置 |
-|   2 | **Spine**         | (Hips + Neck) / 2                    | 腰と首の中点。背骨の中ほど    |
-|   3 | **Spine1**        | (Spine + Neck) / 2                   | 背骨の上部（胸あたり）      |
-|   4 | **Neck**          | (left_shoulder + right_shoulder) / 2 | 左右肩の中点（首の根元）     |
-|   5 | **Head**          | nose                                 | 顔の中心点（鼻の位置）      |
-|   6 | **LeftShoulder**  | left_shoulder                        | 左肩               |
-|   7 | **LeftArm**       | (left_shoulder + left_elbow) / 2     | 左上腕の中間点          |
-|   8 | **LeftForeArm**   | left_elbow                           | 左肘               |
-|   9 | **LeftHand**      | left_wrist                           | 左手首              |
-|  10 | **RightShoulder** | right_shoulder                       | 右肩               |
-|  11 | **RightArm**      | (right_shoulder + right_elbow) / 2   | 右上腕の中間点          |
-|  12 | **RightForeArm**  | right_elbow                          | 右肘               |
-|  13 | **RightHand**     | right_wrist                          | 右手首              |
-|  14 | **LeftUpLeg**     | left_hip                             | 左太もも上部（股関節）      |
-|  15 | **LeftLeg**       | left_knee                            | 左膝               |
-|  16 | **LeftFoot**      | left_ankle                           | 左足首              |
-|  17 | **LeftToeBase**   | left_foot_index                      | 左足のつま先基部         |
-|  18 | **RightUpLeg**    | right_hip                            | 右太もも上部（股関節）      |
-|  19 | **RightLeg**      | right_knee                           | 右膝               |
-|  20 | **RightFoot**     | right_ankle                          | 右足首              |
-|  21 | **RightToeBase**  | right_foot_index                     | 右足のつま先基部         |
+| No. | **Humanoid Joint** | **Computation (from MediaPipe points)** | **Description**                                                  |
+| --: | ------------------ | --------------------------------------- | ---------------------------------------------------------------- |
+|   1 | **Hips**           | (left_hip + right_hip) / 2              | Midpoint between the left and right hips (center of the pelvis). |
+|   2 | **Spine**          | (Hips + Neck) / 2                       | Midpoint between hips and neck — lower spine.                    |
+|   3 | **Spine1**         | (Spine + Neck) / 2                      | Midpoint between spine and neck — upper spine (chest).           |
+|   4 | **Neck**           | (left_shoulder + right_shoulder) / 2    | Midpoint between shoulders — base of the neck.                   |
+|   5 | **Head**           | nose                                    | Center of the face (nose).                                       |
+|   6 | **LeftShoulder**   | left_shoulder                           | Left shoulder joint.                                             |
+|   7 | **LeftArm**        | (left_shoulder + left_elbow) / 2        | Midpoint between shoulder and elbow — upper arm.                 |
+|   8 | **LeftForeArm**    | left_elbow                              | Left elbow joint.                                                |
+|   9 | **LeftHand**       | left_wrist                              | Left wrist joint.                                                |
+|  10 | **RightShoulder**  | right_shoulder                          | Right shoulder joint.                                            |
+|  11 | **RightArm**       | (right_shoulder + right_elbow) / 2      | Midpoint between shoulder and elbow — upper arm.                 |
+|  12 | **RightForeArm**   | right_elbow                             | Right elbow joint.                                               |
+|  13 | **RightHand**      | right_wrist                             | Right wrist joint.                                               |
+|  14 | **LeftUpLeg**      | left_hip                                | Left upper leg (hip joint).                                      |
+|  15 | **LeftLeg**        | left_knee                               | Left knee joint.                                                 |
+|  16 | **LeftFoot**       | left_ankle                              | Left ankle joint.                                                |
+|  17 | **LeftToeBase**    | left_foot_index                         | Left toe base (tip of the foot).                                 |
+|  18 | **RightUpLeg**     | right_hip                               | Right upper leg (hip joint).                                     |
+|  19 | **RightLeg**       | right_knee                              | Right knee joint.                                                |
+|  20 | **RightFoot**      | right_ankle                             | Right ankle joint.                                               |
+|  21 | **RightToeBase**   | right_foot_index                        | Right toe base (tip of the foot).                                |
+
