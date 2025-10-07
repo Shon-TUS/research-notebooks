@@ -68,6 +68,16 @@ When executed, the script will save the skeleton estimation results obtained usi
 
 Although the generated MOV file with the estimated skeleton is not used during training, it will also be output.
 
+Next, run csv_conversion.py.
+
+Before executing, please change the CSV file name specified in the code.
+
+This script converts the 33 pose landmarks from MediaPipe into a 21-joint Humanoid structure and saves the result as a CSV file.
+
+Please note that this process is designed to follow the model described in ***“Listening Human Behavior: 3D Human Pose Estimation with Acoustic Signals.”***
+
+The following table shows the correspondence between MediaPipe and Humanoid joints.
+
 | No. | **Humanoid Joint** | **Computation (from MediaPipe points)** | **Description**                                                  |
 | --: | ------------------ | --------------------------------------- | ---------------------------------------------------------------- |
 |   1 | **Hips**           | (left_hip + right_hip) / 2              | Midpoint between the left and right hips (center of the pelvis). |
