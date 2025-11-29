@@ -42,7 +42,7 @@ At this time, please make sure that Focusrite Control is installed on your compu
 
 3-1.Make chrip sounds
 
-Please run Make_Chirp.py in the Experiment folder.
+Please run Experiment/Make_Chirp.py in the Experiment folder.
 
 When executed, it generates chirp sounds for the duration specified.
 
@@ -52,7 +52,7 @@ Modify num_chirps according to the length of time you want to record.
 
 3-2.Start Experiment
 
-Run record.py in the same folder.
+Run Experimet/record.py in the same folder.
 
 When executed, video recording and audio recording will start simultaneously.
 
