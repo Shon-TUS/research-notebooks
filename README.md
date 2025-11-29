@@ -60,7 +60,7 @@ When executed, video recording and audio recording will start simultaneously.
 
 4-1.Data preprocessing
 
-Run skeletal_estimation.py located in the Preprocessing folder.
+Run videos_Git/skeletal_estimation.py located in the Preprocessing folder.
 
 Before running, please change the MOV file name specified in the code.
 
@@ -68,7 +68,7 @@ When executed, the script will save the skeleton estimation results obtained usi
 
 Although the generated MOV file with the estimated skeleton is not used during training, it will also be output.
 
-Next, run csv_conversion.py.
+Next, run videos_Git/csv_conversion.py.
 
 Before executing, please change the CSV file name specified in the code.
 
