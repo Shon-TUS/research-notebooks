@@ -102,3 +102,7 @@ The following table shows the correspondence between MediaPipe and Humanoid join
 |  20 | **RightFoot**      | right_ankle                             | Right ankle joint.                                               |
 |  21 | **RightToeBase**   | right_foot_index                        | Right toe base (tip of the foot).                                |
 
+**5.Learning Preparation**
+As a prerequisite, please download the executable file from the following URL:
+https://github.com/YutoShibata07/AcousticPose_Public
+For the steps leading up to training, please refer to the README.md in the download location.
