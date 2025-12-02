@@ -10,7 +10,8 @@ As output, a MOV file with the estimated skeleton is generated.
 
 This program is an adaptation of the paper ***“Listening Human Behavior: 3D Human Pose Estimation with Acoustic Signals”*** to seated postures, and its overall workflow follows that of the original paper.
 
-![alt text](image.png)
+![model architecture](https://raw.githubusercontent.com/user/repo/branch/path/to/image.png)
+
 
 ## Usage
 
